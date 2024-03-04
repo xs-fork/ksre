@@ -1080,32 +1080,6 @@ version = "0.1.0"
 
 [[package]]
 name = "ksre-tui"
-version = "0.1.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "c53afc0ae667ad5c6e1e0badb4b0adbb01d422502254d09e0a4ab50a4e49440a"
-dependencies = [
- "chrono",
- "clap",
- "color-eyre",
- "crossterm",
- "futures",
- "jdks",
- "k8s-openapi",
- "kube",
- "nucleo-matcher",
- "ratatui",
- "sdkman-cli-native",
- "serde",
- "tokio",
- "tokio-util",
- "tracing",
- "tracing-appender",
- "tracing-subscriber",
- "tui-textarea",
-]
-
-[[package]]
-name = "ksre-tui"
 version = "0.1.1"
 dependencies = [
  "chrono",
@@ -1116,7 +1090,6 @@ dependencies = [
  "futures",
  "jdks",
  "k8s-openapi",
- "ksre-tui 0.1.0",
  "kube",
  "nucleo-matcher",
  "ratatui",
